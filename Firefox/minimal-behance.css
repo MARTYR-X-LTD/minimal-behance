@@ -1,0 +1,35 @@
+@media (min-width: 1025px){
+    .qa-project-user-actions { filter: grayscale(60%);
+                               opacity: 0.2; }
+    .qa-project-user-actions:hover {  filter: none;
+                                      opacity: 1; }
+
+    [class*="Overlay-root-"][class*="Overlay-open-"] [class*="Overlay-content-"] {
+        opacity: 1;
+        -webkit-transition: opacity 0.3s 0.5s linear;
+        transition: opacity 0.3s 0.5s linear;
+    }
+    [class*="Overlay-inner-"] div[class*="Overlay-wallpaper-"][style='margin-right: 0px;'] { 
+        background-color: #fafafa;
+        opacity: 1; 
+    }
+
+    [class*="Project-topElement-"] { color: #191919; }
+
+    [class*="Project-caption-"] { color: #191919; }
+
+    [class*="Project-caption-"] .rf-button--small span.rf-button__label { color: #191919 }
+
+
+
+    [class*="Overlay-closeIcon-"] path { fill: rgb(25, 25, 25) !important; }
+
+    [class*="ProjectOverlay-siblingProjectCovers-"] { 
+        opacity: 0;
+        transition: all 0.15s linear !important;
+    }
+    [class*="ProjectOverlay-siblingProjectCovers-"]:hover { opacity: 1; }
+
+    [class*="PrimaryNav-adobeLogo-"] { display: none !important; }
+
+}

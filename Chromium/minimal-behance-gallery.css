@@ -1,0 +1,50 @@
+@media (min-width: 1025px){
+    /*
+    .rf-primary-nav {
+        background: rgba(230, 230, 230, 0) !important;
+        transition: all 0.15s linear;
+    }
+    
+    
+    .rf-primary-nav * { transition: all 0.15s linear; }
+    
+    .rf-primary-nav ul { opacity: 0; }
+    
+    .rf-primary-nav__behance-logo svg path { fill: rgb(230, 230, 230); }
+    .rf-primary-nav:hover { background: rgb(25, 25, 25) !important; }
+    .rf-primary-nav:hover ul { opacity: 1; }
+    .rf-primary-nav:hover .rf-primary-nav__behance-logo svg path { fill: rgb(255, 255, 255); }
+    */
+
+    
+    [class*="PrimaryNav-fixed-"] { 
+        color: rgb(229, 229, 229);
+    	/* opacity: .5; */
+	    transition: all 0.15s linear
+    }
+    [class*="PrimaryNav-fixed-"]:hover { 
+        /* opacity: 1; */
+        color: rgb(25, 25, 25);
+    }
+
+    [class*="PrimaryNav-strip"] { 
+        box-shadow: none !important;
+    }
+
+
+
+
+    [class*="PrimaryNav-signup-"], [class*="PrimaryNav-siteSearch-"] {
+	    transition: all 0.15s linear;
+        opacity: .2;
+    }
+
+    [class*="PrimaryNav-fixed-"]:hover [class*="PrimaryNav-siteSearch-"],
+    [class*="PrimaryNav-fixed-"]:hover [class*="PrimaryNav-signup-"] { 
+        opacity: 1;
+    }
+
+    
+
+    /*[class*="InfinityFooter-footerInfinity-"].InfinityFooter__global-selector { display: none !important }*/
+}
