@@ -46,5 +46,5 @@
 
     
 
-    [class*="InfinityFooter-footerInfinity-"].InfinityFooter__global-selector { display: none !important }
+    [class*="InfinityFooter-footerInfinity-"].InfinityFooter__global-selector { position: relative !important }
 }
