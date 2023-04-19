@@ -1,17 +1,13 @@
 @media (min-width: 1025px){
     .qa-project-user-actions { filter: grayscale(60%);
-                               opacity: 0.2; }
+                               opacity: 0.4; }
     .qa-project-user-actions:hover {  filter: none;
                                       opacity: 1; }
 
-    [class*="Overlay-root-"][class*="Overlay-open-"] [class*="Overlay-content-"] {
-        opacity: 1;
-        -webkit-transition: opacity 0.3s 0.5s linear;
-        transition: opacity 0.3s 0.5s linear;
-    }
-    #be-root-portal > [class*="UniversalPopup-modalClass"][class*="FocusedModal-modal"] {
-        background-color: #fafafa;
+    #be-root-portal [class*="Overlay-root-"] [class*="Overlay-wallpaper-"],
+    #be-root-portal [class*="FocusedModal-modal-"] {
         opacity: 1; 
+        background-color: #f9f9f9;
     }
 
     [class*="Project-topElement-"] { color: #191919; }
